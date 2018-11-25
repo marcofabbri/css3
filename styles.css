@@ -22,3 +22,23 @@ div {
     line-height: 2.5em;
     padding: 15px;
 }
+
+div div {
+    background-color: aqua;
+}
+
+div div div {
+    background-color: #b2b2b2;
+}
+
+.contenitore > div {
+    color: yellow;
+}
+
+.contenitore + .citazione {
+    font-size: 20px;
+}
+
+.contenitore ~ .citazione {
+    text-transform: lowercase;
+}
