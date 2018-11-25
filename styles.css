@@ -4,6 +4,7 @@ p {
 
 div {
     color: blue;
+    margin: 20px;
 }
 
 #finale {
@@ -19,4 +20,5 @@ div {
     background-color: darksalmon;
     text-align: center;
     line-height: 2.5em;
+    padding: 15px;
 }
