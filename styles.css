@@ -1,112 +1,59 @@
-body {
-    background: url('https://picsum.photos/600?random') no-repeat top center;
-}
+@import url('custom.css');
+@import url('print.css');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
 
-p {
-    color: red;
-}
+@media screen {
+    body {
+        background: url('https://picsum.photos/600?random') no-repeat top center;
+        font-family: 'Chakra Petch', sans-serif;
+    }
 
-div {
-    color: blue;
-    margin: 5px 10px 15px 20px;
-}
+    p {
+        color: red;
+    }
 
-#finale {
-    color: green;
-    font-family: "arial", "sans";
-    font-size: 22px;
-    font-weight: 800;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
+    div {
+        color: blue;
+        margin: 5px 10px 15px 20px;
+    }
 
-.citazione {
-    background-color: darksalmon;
-    text-align: center;
-    line-height: 2.5em;
-    padding-left: 5px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    background: url('https://picsum.photos/200?random') no-repeat;
-}
+    #finale {
+        color: green;
+        font-family: "arial", "sans";
+        font-size: 22px;
+        font-weight: 800;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
 
-a:link {
-    color: pink;
-}
+    .citazione {
+        background-color: darksalmon;
+        text-align: center;
+        line-height: 2.5em;
+        padding-left: 5px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        background: url('https://picsum.photos/200?random') no-repeat;
+    }
 
-a:visited {
-    color: brown;
-}
+    a:link {
+        color: pink;
+    }
 
-.citazione:hover {
-    background-color: magenta;
-}
+    a:visited {
+        color: brown;
+    }
 
-div div {
-    background-color: aqua;
-}
+    .citazione:hover {
+        background-color: magenta;
+    }
 
-div div div {
-    background-color: #b2b2b2;
-}
+    div div {
+        background-color: aqua;
+    }
 
-.contenitore > div {
-    color: yellow;
+    div div div {
+        background-color: #b2b2b2;
+    }
 }
-
-.contenitore + .citazione {
-    font-size: 20px;
-}
-
-.contenitore ~ .citazione {
-    text-transform: lowercase;
-}
-
-li {
-    display: inline;
-}
-
-.blockText {
-    display: block;
-}
-
-.nascosto {
-    display: none;
-}
-
-.spostato {
-    background-color: red;
-    width: 200px;
-    position: relative;
-    left: 200px;
-    top: 150px;
-}
-
-.menufisso {
-    width: 200px;
-    position: absolute;
-    position: fixed;
-    top: 100px;
-    left:100px;
-}
-
-.contenitoreFloat {
-    border: 1px solid red;
-}
-
-.floatingImage {
-    float: left;
-}
-
-.testolungo {
-    background-color: coral;
-    font-size: 0.8em;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;   
-}
-
-.bastafloat {
-    clear: both;
-}
-
