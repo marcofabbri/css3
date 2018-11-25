@@ -56,4 +56,17 @@
     div div div {
         background-color: #b2b2b2;
     }
+
+    .contenitore > div > div {
+        transform: rotate(20deg);
+    }
+
+    .contenitore > div {
+        width: 600px;
+        transition: all 3s;
+    }
+
+    .contenitore > div:hover {
+        width: 200px;
+    }
 }
