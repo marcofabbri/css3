@@ -64,13 +64,32 @@ div div div {
 }
 
 li {
-    /* display: inline; */
+    display: inline;
 }
 
 .blockText {
- /*   display: block; */
+    display: block;
 }
 
 .nascosto {
-    /* display: none; */
+    display: none;
 }
+
+/*
+.spostato {
+    background-color: red;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+
+.menufisso {
+    width: 200px;
+    position: absolute;
+    position: fixed;
+    top: 100px;
+    left:100px;
+}
+*/
+
