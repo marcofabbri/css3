@@ -17,4 +17,6 @@ div {
 
 .citazione {
     background-color: darksalmon;
+    text-align: center;
+    line-height: 2.5em;
 }
