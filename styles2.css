@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch");
+/* VARIABLES */
+/* MIXIN */
+body {
+  font-family: "Chakra Petch", sans-serif; }
+
+.container1, .container3 {
+  border: 10px solid blue; }
+  .container1:hover, .container3:hover {
+    border-color: green; }
+
+.container1 > div, .container3 > div {
+  border: 5px solid blue; }
+  .container1 > div:hover, .container3 > div:hover {
+    border-color: green; }
+
+.container2 {
+  background-color: red;
+  color: white; }
+  .container2 .item {
+    color: green; }
+
+.container3 {
+  font-size: 4em; }
+
+/*# sourceMappingURL=styles2.css.map */

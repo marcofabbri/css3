@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+/* VARIABLES */
+$primaryColor: blue;
+$secondaryColor: green;
+$applicationFont: 'Chakra Petch', sans-serif;
+
+/* MIXIN */
+@mixin bordered($width) {
+	border: $width solid $primaryColor;
+        &:hover {
+    	    border-color: $secondaryColor;
+	}
+}
+ 
+
+body {
+    font-family: $applicationFont;
+}
+
+.container1 {
+    @include bordered(10px);
+}
+
+.container1 > div {
+    @include bordered(5px);
+}
+
+.container2 {
+    background-color: red;
+    color: white;
+
+    .item {
+        color: $secondaryColor;
+    }
+}
+
+.container3 {
+    @extend .container1;
+    font-size: 4em;
+}
