@@ -8,6 +8,11 @@ div {
 
 #finale {
     color: green;
+    font-family: "arial", "sans";
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .citazione {
